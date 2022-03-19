@@ -12,5 +12,29 @@ body {
 header, main {
     width: 800px;
     margin: auto;
-    border: 2px solid blue;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    float: right;
+}
+li {
+    float: left;  
+    margin-top: 50px;
+}
+img {
+    margin-top: 50px;
+}
+a {
+    font-size: 22px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: black;
+}
+.active {
+    color:rgb(214, 145, 42)
 }
