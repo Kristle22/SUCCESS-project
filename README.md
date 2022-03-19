@@ -1,6 +1,6 @@
 ![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)
 
-# Further To Success
+# Further To Success Frontend project #1
 
 _35 group website project_
 
