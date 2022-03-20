@@ -83,8 +83,6 @@ i:hover {
     color: rgb(43, 144, 226);
     font-size: larger;
 }
-form {
-}
 form >input {
     position: relative;
     font-size: 18px;
