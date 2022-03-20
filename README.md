@@ -8,7 +8,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://Kristle22.github.io/SUCCESS-project
 
-Design: ![Success](./success-project.png)
+Design: ![Success](./img/success-project.png)
 
 ## Project features
 
