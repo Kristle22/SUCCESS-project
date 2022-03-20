@@ -17,6 +17,7 @@ Design: ![Success](./success-project.png)
 -   header: logo + nav
 -   png images
 -   icons
+-   absolute & relative positioning
 
 ## Authors
 

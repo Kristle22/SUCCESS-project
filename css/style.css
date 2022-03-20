@@ -26,13 +26,16 @@ li {
     float: left;  
     margin-top: 50px;
 }
+li:last-child {
+    margin-top: 40px;
+}
 .logo {
     margin-top: 50px;
 }
 a {
     font-size: 18px;
     text-decoration: none;
-    padding: 10px 30px;
+    margin: 10px 30px;
     color: black;
 }
 a:hover {
@@ -61,6 +64,7 @@ h1 {
     font-size: 14px;
     text-transform: capitalize;
     padding: 15px 50px;
+    margin-left: 0;
 }
 p {
     margin-bottom: 45px;
@@ -69,10 +73,28 @@ p {
 .soc-icons {
     margin-top: 70px;
 }
-i {
+.soc-icons > a {
+    padding: 0;
     margin-right: 35px;
+    margin-left: 0;
+
 }
 i:hover {
     color: rgb(43, 144, 226);
     font-size: larger;
+}
+form {
+}
+form >input {
+    position: relative;
+    font-size: 18px;
+    width: 150px;
+    padding: 10px;
+    border: 2px solid #555;
+}
+form > button {
+    position: absolute;
+    margin: 10px -30px;
+    border: none;
+    font-size: 20px;
 }
