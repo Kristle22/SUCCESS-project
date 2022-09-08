@@ -33,26 +33,30 @@ li:last-child {
   margin-top: 40px;
 }
 .logo {
-  margin: 20px 40px 0 0;
+  width: 100px;
+  margin: 10px 40px 0 0;
 }
 a {
   font-size: 18px;
   text-decoration: none;
   color: black;
 }
-a:hover {
-  font-size: larger;
+ul a:hover {
+  text-decoration: underline;
   color: rgba(172, 110, 18, 0.87);
 }
 .active {
   color: rgba(172, 110, 18, 0.87);
 }
 main {
-  margin-top: 150px;
+  margin-top: 70px;
 }
-.text-content,
+.text-content {
+  width: 40%;
+  float: left;
+}
 .image {
-  width: 50%;
+  width: 60%;
   float: left;
 }
 h1 {
@@ -61,29 +65,36 @@ h1 {
   margin: 10px 0;
 }
 .join-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: orange;
+  width: 150px;
+  height: 40px;
   color: white;
   border-radius: 3px;
   font-size: 14px;
   text-transform: capitalize;
-  padding: 15px 50px;
   margin-left: 0;
+}
+a.join-link:hover {
+  font-size: 18px;
 }
 p {
   margin-bottom: 45px;
   font-size: 15px;
 }
 .soc-icons {
-  margin-top: 70px;
+  display: flex;
+  width: 200px;
+  margin: 70px 0 20px 0;
 }
 .soc-icons > a {
-  padding: 0;
-  margin-right: 35px;
-  margin-left: 0;
+  width: 25%;
 }
 i:hover {
   color: rgb(43, 144, 226);
-  font-size: larger;
+  font-size: 23px;
 }
 form > input {
   position: relative;
@@ -104,7 +115,7 @@ form > button {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .text-content,
   .image {
