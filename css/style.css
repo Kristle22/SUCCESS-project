@@ -12,7 +12,7 @@ body {
 header,
 main {
   width: 95%;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 nav {
