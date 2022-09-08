@@ -17,7 +17,7 @@ main {
 }
 nav {
   display: flex;
-  width: 100%;
+  width: 95%;
 }
 ul {
   width: 100%;
@@ -34,7 +34,7 @@ li:last-child {
 }
 .logo {
   width: 100px;
-  margin: 10px 40px 0 0;
+  margin: 10px 40px 0 -20px;
 }
 a {
   font-size: 18px;
@@ -88,7 +88,7 @@ p {
 .soc-icons {
   display: flex;
   width: 200px;
-  margin: 70px 0 20px 0;
+  margin: 60px 0 20px 0;
 }
 .soc-icons > a {
   width: 25%;
@@ -116,7 +116,7 @@ form > button {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 0;
   }
   .text-content,
   .image {
@@ -124,10 +124,6 @@ form > button {
   }
   .image {
     margin-top: 10px;
-  }
-  .logo {
-    margin-right: 10px;
-    width: 80px;
   }
   h1 {
     text-align: center;
