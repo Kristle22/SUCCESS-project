@@ -47,6 +47,7 @@ ul a:hover {
 }
 .active {
   color: rgba(172, 110, 18, 0.87);
+  text-decoration: underline;
 }
 main {
   margin-top: 70px;
